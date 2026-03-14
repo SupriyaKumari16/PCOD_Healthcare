@@ -1,128 +1,159 @@
-# 💖 SheHelp — Empowering Women's Health with Technology  
+# 💖 SheHelp --- Frontend (User Interface)
 
-**SheHelp** is an AI-powered healthcare platform built to help women, especially in rural areas, detect and manage **PCOD/PCOS** through smart technology.  
-Due to lack of awareness and limited access to doctors, many women go undiagnosed. SheHelp bridges that gap through **AI, ML, and modern web technologies**.  
+**SheHelp** is an AI-powered women's healthcare platform designed to
+help women detect and manage **PCOD/PCOS**.\
+This repository focuses on the **frontend implementation**, providing a
+modern, responsive, and user-friendly interface that allows users to
+interact with the platform's AI-powered health services.
 
----
+------------------------------------------------------------------------
 
-## 🚀 Features  
+# 🚀 Frontend Features
 
-### 🩺 1. Smart Disease Detection (99% Accuracy)  
-- Women can fill out a basic details form to check if they may have PCOD/PCOS.  
-- Integrated **Machine Learning model** trained with **99% accuracy** for reliable results.  
+## 🩺 Smart Disease Detection Interface
 
-### 👩‍⚕️ 2. Doctor Appointment System  
-- Book consultations with nearby verified doctors directly through the platform.  
+-   Responsive form UI where users can enter health details.
+-   Sends user inputs to the backend ML model for PCOD/PCOS prediction.
+-   Displays prediction results in a clean and user-friendly layout.
 
-### 🤖 3. AI Chatbot (Gemini API)  
-- Women can ask any PCOD/PCOS or health-related queries.  
-- Powered by **Gemini API** for intelligent and accurate responses.  
+## 👩‍⚕️ Doctor Appointment UI
 
-### 🩸 4. Cycle & Health Tracker  
-- 30-day fitness and exercise tracker with daily SMS reminders using **Twilio API**.  
-- Women receive morning reminders (5 AM) to stay consistent with workouts and habits.  
+-   Interactive interface for booking doctor consultations.
+-   Clean doctor listing cards with appointment options.
+-   Smooth navigation and responsive design.
 
-### 🌍 5. Community Page (Face Detection Security)  
-- A safe space for women to share thoughts and health experiences.  
-- **Face Recognition (ML + DL)** prevents male access — ensuring privacy and safety.  
+## 🤖 AI Chatbot Interface
 
-### 📖 6. Story Dashboard  
-- Women can share personal stories publicly or privately.  
-- Includes options to control visibility and privacy settings.  
+-   Chat UI built for interacting with the AI assistant.
+-   Users can ask health-related queries about PCOD/PCOS.
+-   Real-time message display and responsive chat layout.
 
-### 🔐 7. Secure Login with MetaMask  
-- Web3-based authentication for full data security and privacy.  
+## 🩸 Cycle & Health Tracker Dashboard
 
----
+-   User-friendly dashboard for tracking health activities.
+-   Daily fitness tracking interface.
+-   Clear visual layout to monitor habits and reminders.
 
-## 🧠 Tech Stack  
+## 🌍 Community Page (UI)
 
-| Category | Technology |
-|-----------|-------------|
-| **Frontend** | React + Vite + Tailwind CSS |
-| **Backend** | Node.js + Express.js |
-| **Database** | MongoDB |
-| **Authentication** | MetaMask (Web3 Login) |
-| **Machine Learning** | Python (Scikit-learn, TensorFlow) |
-| **AI Chatbot** | Gemini API |
-| **SMS Service** | Twilio API |
-| **Face Recognition** | ML + DL Model Integration |
+-   A safe and structured community interface.
+-   Women can share experiences and posts.
+-   Designed with privacy-focused layout and accessibility.
 
----
+## 📖 Story Dashboard
 
-## 🧩 My Role  
+-   Interface for sharing personal stories.
+-   Users can choose between public or private visibility.
+-   Modern card-based UI for displaying stories.
 
-- **MERN Stack Development & Integration**  
-- **MetaMask Authentication Setup**  
-- **Face Recognition (ML + DL) Integration** on Community Page  
-- End-to-end feature integration & deployment setup  
+## 🔐 Web3 Login Interface
 
----
+-   Integrated **MetaMask login UI**.
+-   Enables secure user authentication using Web3 wallet connection.
 
-## ⚙️ Installation & Setup  
+------------------------------------------------------------------------
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/SupriyaKumari16/pcod_healthcares
-   cd PCOD_Website
-   ```   z
+# 🎨 Frontend Tech Stack
 
-2. **Install dependencies**  
-   ```bash
-   npm install
-   cd frontend/backend && npm install
-   ```
+  Category             Technology
+  -------------------- -----------------------
+  Framework            React.js
+  Build Tool           Vite
+  Styling              Tailwind CSS
+  Language             JavaScript
+  UI Design            Responsive Web Design
+  Wallet Integration   MetaMask Web3
 
-3. **Set up environment variables**  
-   Create a `.env` file in the root directory and add:  
-   ```
-   MONGO_URI=your_mongodb_connection_string
-   GEMINI_API_KEY=your_gemini_api_key
-   TWILIO_ACCOUNT_SID=your_twilio_sid
-   TWILIO_AUTH_TOKEN=your_twilio_token
-   META_MASK_KEY=your_metamask_key
-   ```
+------------------------------------------------------------------------
 
-4. **Run the application**  
-   ```bash
-   frontend- npm run dev
-   backend- nodemon server.js
-   frontend/pcod- python app.py
-   ```
+# 🧑‍💻 My Role (Frontend Developer)
 
-## 🧬 Machine Learning Model  
+-   Developed the **entire frontend interface** of the platform.
+-   Built responsive pages using **React + Tailwind CSS**.
+-   Designed **forms, dashboards, and chatbot UI components**.
+-   Integrated frontend with backend APIs for:
+    -   PCOD prediction
+    -   Doctor booking
+    -   Chatbot responses
+-   Implemented **MetaMask Web3 authentication UI**.
+-   Focused on **user experience, responsive design, and smooth
+    navigation**.
 
-- Trained on verified medical datasets for PCOD/PCOS detection.  
-- Achieved **~99% accuracy** using **Random Forest + Logistic Regression** hybrid model.  
-- Integrated in backend using a REST API endpoint for instant predictions.  
+------------------------------------------------------------------------
 
----
+# ⚙️ Installation & Setup
 
-## 🤝 Contribution
+### 1️⃣ Clone the Repository
 
-Contributions are welcome! Follow these steps:
-1. Fork the repository
-2. Create a new branch (`feature/your-feature-name`)
-3. Commit your changes
-4. Push to your branch
-5. Open a Pull Request
+``` bash
+git clone https://github.com/SupriyaKumari16/PCOD_Healthcare
+cd pcod_healthcares
+```
 
----
+### 2️⃣ Install Dependencies
 
-## 🧑‍💻 Author
+``` bash
+npm install
+```
 
-**Supriya Kumari**
-> Frontend Developer
->
-> 💼 [LinkedIn] https://www.linkedin.com/in/supriya-kumari16/ • 🌐 [Portfolio] https://myportfolio-react-taupe.vercel.app/ • 📧 sjha0885@gmail.com
+### 3️⃣ Run the Frontend
 
----
+``` bash
+npm run dev
+```
 
-## 🩷 Inspiration
+The application will start on:
 
-> Many women in rural areas suffer silently due to lack of access to healthcare.
-> SheHelp aims to bridge that gap — using technology to bring awareness, detection, and support for women’s health worldwide.  
+    http://localhost:5173
 
----
+------------------------------------------------------------------------
 
-### 🌟 *“Empower Women. Empower Health.”*
+# 📁 Project Structure (Frontend)
+
+    frontend/
+    │
+    ├── src/
+    │   ├── components/
+    │   ├── pages/
+    │   ├── assets/
+    │   ├── hooks/
+    │   └── App.jsx
+    │
+    ├── public/
+    └── package.json
+
+------------------------------------------------------------------------
+
+# 🤝 Contribution
+
+Contributions are welcome!
+
+1.  Fork the repository
+2.  Create a new branch (`feature/your-feature`)
+3.  Commit your changes
+4.  Push to the branch
+5.  Open a Pull Request
+
+------------------------------------------------------------------------
+
+# 👩‍💻 Author
+
+**Supriya Kumari**\
+Frontend Developer
+
+💼 LinkedIn: https://www.linkedin.com/in/supriya-kumari16/\
+🌐 Portfolio: https://myportfolio-react-taupe.vercel.app/\
+📧 Email: sjha0885@gmail.com
+
+------------------------------------------------------------------------
+
+# 🩷 Inspiration
+
+> Many women in rural areas suffer silently due to lack of access to
+> healthcare.\
+> SheHelp aims to bridge that gap by providing an accessible and
+> user-friendly digital platform.
+
+------------------------------------------------------------------------
+
+### 🌟 *Empower Women. Empower Health.*
